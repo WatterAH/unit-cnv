@@ -1,4 +1,5 @@
-import { Kilograms } from '../src/index';
+import { Mass } from '../src/index';
+const Kilograms = Mass.Kilograms;
 
 describe('Conversor', () => {
   it('works', () => {

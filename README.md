@@ -15,7 +15,9 @@ npm install unit-cnv
 Import the necessary modules for the units you want to convert. For example, to convert time:
 
 ```
-import { Seconds } from "unit-cnv";
+import { Time } from "unit-cnv";
+
+const Seconds = Time.Seconds;
 
 const secondsValue = 120;
 const minutesValue = Seconds.toMinutes(secondsValue);

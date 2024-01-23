@@ -1,4 +1,4 @@
-export * from './length';
-export * from './mass';
-export * from './temperature';
-export * from './time';
+export * as Length from './length';
+export * as Mass from './mass';
+export * as Temperature from './temperature';
+export * as Time from './time';
