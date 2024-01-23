@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -42,6 +42,19 @@
       "path": "dist/unit-converter-lib.esm.js",
       "limit": "10 KB"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WatterAH/unit-cnv.git"
+  },
+  "homepage": "https://github.com/WatterAH/unit-cnv#readme",
+  "keywords": [
+    "unit converter",
+    "measurement conversion",
+    "convert units",
+    "TypeScript units",
+    "JavaScript units",
+    "numeric conversions"
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^11.0.2",
