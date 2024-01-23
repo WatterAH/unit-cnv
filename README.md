@@ -7,7 +7,7 @@ A TypeScript package to convert between different units of measurement, such as 
 To install the package, run the following command:
 
 ```
-npm install unit-converter
+npm install unit-cnv
 ```
 
 ## Usage
