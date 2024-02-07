@@ -24,6 +24,18 @@ const minutesValue = Seconds.toMinutes(secondsValue);
 console.log(`${secondsValue} seconds equals ${minutesValue} minutes`);
 ```
 
+Or by default:
+
+```
+import converter from "unit-cnv";
+
+const Seconds = converter.Time.Seconds;
+
+const secondsValue = 120;
+const minutesValue = Seconds.toMinutes(secondsValue);
+console.log(`${secondsValue} seconds equals ${minutesValue} minutes`);
+```
+
 ## Features
 
 - Mass Conversion
